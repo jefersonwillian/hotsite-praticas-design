@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Maratona de Programação </title>
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.6.6/sweetalert2.min.css" />
+</head>
+<body>
+  <!-- TOP BAR -->
+  <div class="top-bar">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-xs-12">
+          <ul class="top-bar-contacts">
+            <li><i class="fa fa-phone" aria-hidden="true"></i>+55 11 9 5557 1918</li>
+            <li class="mail"><i class="fa fa-envelope-o" aria-hidden="true"></i>Contato@programação.com.br</li>
+          </ul>
+        </div>
+        <div class="col-md-4 col-xs-12 top-social-wrap">
+          <ul class="top-social">                
+            <li><a href="#"><i class="fa fa-facebook fa-1x" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram fa-1x" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter fa-1x" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- TOP BAR END -->
+
+  <header>
+    <nav class="navbar navbar-default style-nav">
+      <div class="container-fluid">
+        <div class="col-xs-4">
+          <a class="navbar-brand logomaratona" href="index.html"><span class="logomaratona2">Marotona</span><span class="logoprogramacao">Programação</span></a>
+        </div>
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">                
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html" class="a-lin-nav">HOME</a></li>
+            <li><a href="#informacoes" class="a-lin-nav">INFORMAÇÕES</a></li>
+            <li><a href="#premios" class="a-lin-nav">PRÊMIOS</a></li>
+            <li><a href="#patrocinios" class="a-lin-nav">PATROCINIOS</a></li>
+            <li><a href="#contato" class="a-lin-nav">CONTATO</a></li>
+            <li><a href="#newsletter" class="a-lin-nav">NEWSLETTER</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>        
+  </header>
+  <section class="style-section-1" style="background-image: url('./img/background.png'); background-repeat: no-repeat;">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 img-web">
+          <img src="img/maratona.png" class="img-responsive" alt="logo do site">
+        </div>
+        <div class="col-md-6 style-section-from">
+
+          <form class="form-inscreva" id="inscrevaForm">
+            <h2 class="text-center text-uppercase">Inscreva-se</h2>
+            <div class="col-md-12">
+              <input type="text" name="name" id="name" placeholder="Seu Nome*">
+            </div>
+            <div class="col-md-12">
+              <input type="text" name="email" id="email" placeholder="Seu E-mail*">
+            </div>
+            <div class="col-md-12">
+              <input type="text" name="cpf" id="cpf" placeholder="CPF">
+            </div>
+            <div class="col-md-12">
+              <input type="text" name="telefone" id="telefone" placeholder="Telefone">
+            </div>
+            <div class="col-md-12">
+              <textarea placeholder="Sua Mensagem" name="msg" id="msg"></textarea>
+            </div>
+            <button type="button" class="btn btn-warning" id="inscrevaEnviar">ENVIAR</button>
+          </form>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section class="style-section-2">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <a href="#" id="informacoes"></a>
+          <h1 class="text-center text-uppercase h2-title">Informações</h1>
+        </div>
+        <div class="col-md-12">
+          <div class="col-md-4">
+            <h3 class="text-center text-uppercase h3-title">Regras</h3>
+            <p class="text-justify">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consequat, ante in congue sagittis, velit neque posuere risus, ut laoreet mauris arcu ut leo. Nullam rhoncus tincidunt ornare. Donec quam massa, egestas ut arcu nec, congue viverra massa. In venenatis viverra convallis. Suspendisse vestibulum mauris eget diam tincidunt ullamcorper. Pellentesque et efficitur purus, eget sagittis turpis. Sed eleifend ligula lacus, et dignissim dolor congue in. Praesent nec rutrum purus. Duis ac vehicula ex. Sed nec mattis risus, at efficitur lacus.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <h3 class="text-center text-uppercase h3-title" >Participação</h3>
+            <p class="text-justify">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consequat, ante in congue sagittis, velit neque posuere risus, ut laoreet mauris arcu ut leo. Nullam rhoncus tincidunt ornare. Donec quam massa, egestas ut arcu nec, congue viverra massa. In venenatis viverra convallis. Suspendisse vestibulum mauris eget diam tincidunt ullamcorper. Pellentesque et efficitur purus, eget sagittis turpis. Sed eleifend ligula lacus, et dignissim dolor congue in. Praesent nec rutrum purus. Duis ac vehicula ex. Sed nec mattis risus, at efficitur lacus.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <h3 class="text-center text-uppercase h3-title">Data e Local</h3>
+            <p class="text-justify">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consequat, ante in congue sagittis, velit neque posuere risus, ut laoreet mauris arcu ut leo. Nullam rhoncus tincidunt ornare. Donec quam massa, egestas ut arcu nec, congue viverra massa. In venenatis viverra convallis. Suspendisse vestibulum mauris eget diam tincidunt ullamcorper. Pellentesque et efficitur purus, eget sagittis turpis. Sed eleifend ligula lacus, et dignissim dolor congue in. Praesent nec rutrum purus. Duis ac vehicula ex. Sed nec mattis risus, at efficitur lacus.
+            </p>
+          </div>        
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="style-section-3" style="background-image: url('./img/background.png');">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <a href="#" id="premios"></a>
+          <h1 class="text-center text-uppercase h2-title">Premiação</h1>
+        </div>
+        <div class="col-md-12">
+          <div class="col-md-4 style-section-3-elementos img-pos">
+            <div class="col-md-12 text-center">
+              <h3 class="text-center text-uppercase h3-title-pos" >2° Lugar</h3>
+            </div>
+            <div class="col-md-12">
+             <img src="img/viagens.png" class="img-responsive" alt="imagem do prêmio">
+           </div>
+         </div>
+         <div class="col-md-4 style-section-ele">
+          <div class="col-md-12 text-center">
+            <h3 class="text-center text-uppercase h3-title-pos">1° Lugar</h3>
+          </div>
+          <div class="col-md-12">
+           <img src="img/carro.png" class="img-responsive" alt="imagem do prêmio">
+         </div>
+       </div>
+       <div class="col-md-4 style-section-3-elementos img-pos">
+        <div class="col-md-12 text-center">
+          <h3 class="text-center text-uppercase h3-title-pos">3° Lugar</h3>
+        </div>
+        <div class="col-md-12">
+         <img src="img/viagens.png" class="img-responsive" alt="imagem do prêmio">
+       </div>
+     </div>         
+   </div>
+ </div>
+</div>
+</section>
+<section class="style-section-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <a href="#" id="patrocinios"></a>
+        <h1 class="text-center text-uppercase h2-title">patrocínio</h1>
+      </div>
+      <div class="col-md-12">
+        <div class="col-md-4 style-section-4-elementos">
+          <div class="col-md-12">
+            <img src="img/Logo_2013_Google.png" class="img-responsive" alt="Logo do Google">
+          </div>
+        </div>
+        <div class="col-md-4 style-section-4-elementos">
+          <div class="col-md-12">
+           <img src="img/facebook.png" class="img-responsive" alt="Logo do Facebook">
+         </div>
+       </div>
+       <div class="col-md-4 style-section-4-elementos">
+        <div class="col-md-12">
+         <img src="img/9598b485d75c30986078655d68259c62.png" class="img-responsive" alt="Logo do amazon">
+       </div>
+     </div>                        
+   </div>
+ </div>
+</div>
+</section>
+<section class="style-section-contato" style="background-image: url('./img/background.png');">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <a href="#" id="contato"></a>
+        <h1 class="text-center text-uppercase h2-title">Contato</h1>
+      </div>
+      <div class="col-md-6">    
+        <div class="contact-left">            
+          <div class="item">
+            <div class="title"><i class="fa fa-location-arrow" aria-hidden="true"></i>ENDEREÇO</div>
+            <p>Rua Almeida Santos Carvalho, N° 215 - CEP 18125300</p>
+          </div>
+          <div class="item">
+            <div class="title"><i class="fa fa-phone" aria-hidden="true"></i>TELEFONE</div>
+            <p>11 4715 0631 </p>
+          </div>
+          <div class="item">
+            <div class="title"><i class="fa fa-envelope-o" aria-hidden="true"></i>EMAIL</div>
+            <p><a href="#">Contato@programação.com.br</a></p>
+          </div>
+          <div class="item">
+            <div class="title"><i class="fa fa-whatsapp" aria-hidden="true"></i>WHATSAPP</div>
+            <p><a href="#">11 9 5557 1918 </a></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="contact-right">
+          <h2 class="text-center enviar-msg">Enviar mensagem</h2>
+          <form class="contact-form" id="Form2">
+            <div class="row">
+              <div class="col-md-6">
+                <input class="contact-input" type="text" placeholder="Seu nome*" id="name2">
+              </div>
+              <div class="col-md-6">
+                <input class="contact-input" type="email" placeholder="Email *" id="email2">
+              </div>
+              <div class="col-md-6">
+                <input class="contact-input" type="text" placeholder="Assunto*" id="assunto2">
+              </div>
+              <div class="col-md-6">
+                <input class="contact-input" type="text" placeholder="Telefone*" id="telefone2">
+              </div>
+              <div class="col-md-12">
+                <textarea placeholder="Sua mensagem *" id="msg2"></textarea>
+              </div>                
+              <div class="col-md-12 text-center">
+                <button id="enviar2">ENVIAR</button>
+              </div>
+            </div>  
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="map">
+  <iframe src="https://maps.google.com/?ie=UTF8&amp;ll=38.85682,-103.996582&amp;spn=7.304424,16.907959&amp;t=m&amp;z=7&amp;output=embed" class="iframe" style="width: 100%; height: 400px;" ></iframe>
+</div>
+
+<!-- SUBSCRIBE FORM -->
+<section class="subscribe">
+  <div class="container ">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="inner">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <a href="#" id="newsletter"></a>
+              <div class="top-title text-center">Quer saber sobre as novidades?</div>
+              <div class="bottom-title text-center">Receba nosso e-mail semanal</div>
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <form class="subs-form">
+                <div class="col-md-6 subs-form-input">
+                  <input type="text" placeholder="Insira seu email">
+                  <input type="submit" value="ENVIAR">
+                </div>
+              </form>
+            </div>  
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- SUBSCRIBE FORM END -->
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="top-footer">
+    <div class="container">
+      <div class="row">        
+        <div class="col-md-3 col-sm-4 col-xs-12" style="padding-bottom: 20px;">
+          <div class="col-md-12">
+            <span class="footer-col__title" >Lorem ipsum dolor</span>
+          </div>
+          <div class="col-md-12">
+            <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris euismod egestas dui in dictum. In consectetur aliquam lacinia. Lorem ipsum dolor sit amet</p>
+          </div>          
+        </div>
+        <div class="col-md-3 col-sm-4 col-xs-12" style="padding-bottom: 20px;">
+          <div class="col-md-12">
+            <span class="footer-col__title" >Lorem ipsum dolor</span>
+          </div>
+          <div class="col-md-12">
+            <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris euismod egestas dui in dictum. In consectetur aliquam lacinia. Lorem ipsum dolor sit amet</p>
+          </div>          
+        </div>
+        <div class="col-md-3 col-sm-4 col-xs-12" style="padding-bottom: 20px;">
+          <div class="col-md-12">
+            <span class="footer-col__title" >Lorem ipsum dolor</span>
+          </div>
+          <div class="col-md-12">
+            <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris euismod egestas dui in dictum. In consectetur aliquam lacinia. Lorem ipsum dolor sit amet</p>
+          </div>         
+        </div>
+        <div class="col-md-3 col-sm-4 col-xs-12" style="padding-bottom: 20px;">
+          <div class="footer-social">
+            <div class="footer-col__title">Redes Sociais</div>
+            <ul class="social">
+              <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>                      
+              <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter fa-1x" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+            </ul>   
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="bottom-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <div class="copyrights">2017 &copy; Todos os direitos Reservados <a href="#">Jeferson Carvalho</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- FOOTER END -->
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/validacao.js"></script>
+<script src="js/jquery.mask.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.6.6/sweetalert2.min.js"></script>
+<script>
+  $(document).ready(function (e) {
+    $('#inscrevaEnviar').on('click', function (e) {
+      e.preventDefault();
+
+      $('#inscrevaEnviar').attr('disabled', 'disabled');
+      var nome = $('#name').val();
+      var email = $('#email').val();
+      var cpf = $('#cpf').val();
+      var telefone = $('#telefone').val();
+      var msg = $('#msg').val();
+      
+
+      if ((nome === '') || (email === '') || (cpf === '') || (telefone === '') || (msg === '')) {
+        var fields = [];
+        if(nome === ''){
+          fields.push("nome");
+        }
+        if(email === ''){
+          fields.push("email");
+        }
+        if(cpf === ''){
+          fields.push("cpf");
+        }
+        if(telefone === ''){
+          fields.push("telefone");
+        }
+        if(msg === ''){
+          fields.push("msg");
+        }
+
+        var error = fields[0];           
+        for (i = 1; i < fields.length; i++) {
+          error += ", " + fields[i];
+        }
+        error += '.';
+        sweetAlert("Oops", "Parece que você esqueceu de digitar alguma informação! Verifique os campos: " + error, "warning");
+        $('#inscrevaEnviar').removeAttr('disabled', 'disabled');
+      }else{
+        $.ajax({
+          url: "index.html",
+          type: "POST",
+          data: $('#inscrevaForm').serialize(),
+          success: function (data) {
+            if (data.success) {
+              swal({
+                title: "Mensagem enviada com sucesso!",
+                text: "Iremos entrar em contato o mais rápido possível. Muito Obrigado!",
+                type: "success",
+                showCancelButton: false,
+                closeOnConfirm: false,
+                showLoaderOnConfirm: true,
+              },
+              function () {
+                window.locatiom.href = '/contato';
+              });
+              $('input').val('');
+              $('textarea').val('');
+            } else {
+              sweetAlert("Oops!", "Teve um problema, vamos tentar novamente?", "error");
+            }
+          }
+        });
+      }
+    });
+  });
+</script>
+<script>
+  $(document).ready(function (e) {
+    $('#enviar2').on('click', function (e) {
+      e.preventDefault();
+
+      $('#enviar2').attr('disabled', 'disabled');
+      var nome = $('#name2').val();
+      var email = $('#email2').val();
+      var assunto = $('#assunto2').val();
+      var telefone = $('#telefone2').val();
+      var msg = $('#msg2').val();
+      
+
+      if ((nome === '') || (email === '') || (assunto === '') || (telefone === '') || (msg === '')) {
+        var fields = [];
+        if(nome === ''){
+          fields.push("nome");
+        }
+        if(email === ''){
+          fields.push("email");
+        }
+        if(assunto === ''){
+          fields.push("assunto");
+        }
+        if(telefone === ''){
+          fields.push("telefone");
+        }
+        if(msg === ''){
+          fields.push("msg");
+        }
+
+        var error = fields[0];           
+        for (i = 1; i < fields.length; i++) {
+          error += ", " + fields[i];
+        }
+        error += '.';
+        sweetAlert("Oops", "Parece que você esqueceu de digitar alguma informação! Verifique os campos: " + error, "warning");
+        $('#enviar2').removeAttr('disabled', 'disabled');
+      }else{
+        $.ajax({
+          url: "index.html",
+          type: "POST",
+          data: $('#Form2').serialize(),
+          success: function (data) {
+            if (data.success) {
+              swal({
+                title: "Mensagem enviada com sucesso!",
+                text: "Iremos entrar em contato o mais rápido possível. Muito Obrigado!",
+                type: "success",
+                showCancelButton: false,
+                closeOnConfirm: false,
+                showLoaderOnConfirm: true,
+              },
+              function () {
+                window.locatiom.href = 'index.html';
+              });
+              $('input').val('');
+              $('textarea').val('');
+            } else {
+              sweetAlert("Oops!", "Teve um problema, vamos tentar novamente?", "error");
+            }
+          }
+        });
+      }
+    });
+  });
+</script>
+
+</body>
+</html>
